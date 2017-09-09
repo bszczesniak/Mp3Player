@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MP3Player.jnlp">
+  <information>
+    <title>MP3Player</title>
+    <vendor>Knak</vendor>
+    <description>MP3Player</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MP3Player.jar" size="26132" download="eager" />
+    <jar href="libs\jid3lib-0.5.4.jar" size="192186" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="pl.javastart.mp3player.main.Main"  name="MP3Player" />
+  <update check="background"/>
+</jnlp>
