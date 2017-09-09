@@ -12,8 +12,8 @@ import pl.javastart.mp3player.mp3.Mp3Song;
 
 public class ContentPaneController implements Initializable {
 
-    public static final String TITLE_COLUMN = "Tytuł";
-    public static final String AUTHOR_COLUMN = "Autor";
+    public static final String TITLE_COLUMN = "Title";
+    public static final String AUTHOR_COLUMN = "Author";
     public static final String ALBUM_COLUMN = "Album";
 
     @FXML
