@@ -60,7 +60,7 @@ public class MenuPaneController implements Initializable {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("About KNAK Mp3 Player");
             alert.setHeaderText(null);
-            alert.setContentText("author - Bartłomiej Szczęniak \n\n"
+            alert.setContentText("author - Bartłomiej Szczęśniak \n\n"
                     + "em@ail - bartlomiej.szczesniak@gmail.com\n\n"
                     + "github - github.com/bszczesniak");
             alert.showAndWait();
